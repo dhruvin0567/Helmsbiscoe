@@ -1,0 +1,139 @@
+/* section1 css */
+
+.section1-container {
+  background-color: #3e7189;
+}
+
+.section1-description {
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+.search-box {
+  position: relative;
+}
+
+.input-group {
+  max-width: 50% !important;
+  width: 100% !important;
+}
+
+.search-box input {
+  padding: 20px !important;
+}
+
+/* section2 css */
+.section2 {
+  padding: 2rem;
+}
+
+.region-card {
+  width: 600px !important;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.region-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.region-image {
+  width: 100%;
+  height: auto;
+  max-height: 300px;
+  object-fit: contain;
+}
+
+.region-title {
+  margin-top: 1.5rem;
+  color: #34739b;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+/* filter */
+
+.filter-title {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #666;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #e5e5e5;
+  padding-bottom: 8px;
+}
+
+.accordion-item {
+  border: none;
+  border-bottom: 1px solid #e5e5e5;
+  background-color: #fff;
+  border-radius: 0;
+}
+
+.accordion-button {
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #fff !important;
+  color: #000;
+  padding: 10px 0;
+  box-shadow: none;
+  border: none;
+  transition: none;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+.accordion-button::after {
+  transition: transform 0.2s;
+}
+
+.accordion-button:not(.collapsed)::after {
+  transform: rotate(180deg);
+}
+
+.accordion-body {
+  background-color: #fff;
+  padding: 6px 0 12px 0;
+}
+
+.menu-item a {
+  display: block;
+  padding: 4px 0;
+  font-size: 14px;
+  color: #333;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #000 !important;
+  background-color: #fff !important;
+}
+
+.menu-item a {
+  font-size: 14px;
+  color: #000;
+  text-decoration: none;
+  padding: 4px 0;
+}
+
+.menu-item a:hover {
+  text-decoration: underline;
+  color: #007bff;
+}
+
+.menu-item span {
+  font-size: 14px;
+  font-weight: 500;
+}

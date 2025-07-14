@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Africa and Middle East",
+    "src": "/img/africa.svg",
+    "routes": "/africa"
+  },
+  {
+    "name": "Americas",
+    "src": "/img/america.svg",
+    "routes": "/america"
+  },
+  {
+    "name": "Asia Pacific",
+    "src": "/img/asia.svg",
+    "routes": "/asiapacific"
+  },
+  {
+    "name": "Europe",
+    "src": "/img/europe.svg",
+    "routes": "/europe"
+  }
+]

@@ -1,14 +1,14 @@
 import React from "react";
 import Section1 from "../Components/AssociateLocator/Section1";
-import Section2 from "../Components/AssociateLocator/Section2";
+import Filter from "../Components/Country/Filter";
 
-const Home = () => {
+const Country = () => {
   return (
     <>
       <Section1 />
-      <Section2 />
+      <Filter />
     </>
   );
 };
 
-export default Home;
+export default Country;
